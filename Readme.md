@@ -11,6 +11,9 @@
 <!-- default file list end -->
 # How to generate a document layout in code via the Snap application programming interface (API)
 
+> **Note**
+>
+> As you may already know, the [WinForms Snap control](https://docs.devexpress.com/WindowsForms/11373/controls-and-libraries/snap) and [Snap Report API](https://docs.devexpress.com/OfficeFileAPI/15188/snap-report-api) are now in maintenance support mode. No new features or capabilities are incorporated into these products. We recommend that you use [DevExpress Reporting](https://docs.devexpress.com/XtraReports/2162/reporting) tool to generate, edit, print, and export your business reports/documents.
 
 <p>This example illustrates the <a href="https://documentation.devexpress.com/#WindowsForms/CustomDocument14525"><u>Snap API</u></a> that is used to generate a document from scratch and connect it to data completely in code.<br />
 The following code generates a tabular report layout. For a sample code that creates a mail-merge report (in the context of <a href="https://documentation.devexpress.com/#DocumentServer/clsDevExpressSnapSnapDocumentServertopic"><u>SnapDocumentServer</u></a>), refer to the following example: <a href="https://www.devexpress.com/Support/Center/CodeCentral/ViewExample.aspx?exampleId=E5078"><u>How to automatically create mail-merge documents using the Snap Document Server</u></a>.</p><p><a href="https://documentation.devexpress.com/#WindowsForms/clsDevExpressSnapSnapControltopic"><u>SnapControl</u></a> extends the <a href="https://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraRichEditRichEditControltopic"><u>RichEditControl</u></a>'s API and introduces the <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressSnapCoreAPISnapListtopic"><u>SnapList</u></a> class that is used to insert dynamic data elements into a document.</p><p>To generate a data-aware Snap document, do the following:<br />
